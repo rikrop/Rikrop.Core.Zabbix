@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rikrop.Core.Zabbix", "Rikrop.Core.Zabbix\Rikrop.Core.Zabbix.csproj", "{385013B6-86F3-444E-B908-B4281D91CB69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rikrop.Core.Zabbix.40", "Rikrop.Core.Zabbix.40\Rikrop.Core.Zabbix.40.csproj", "{B6D6AB5F-D42C-4006-A063-6F1F2984A99B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{385013B6-86F3-444E-B908-B4281D91CB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385013B6-86F3-444E-B908-B4281D91CB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385013B6-86F3-444E-B908-B4281D91CB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385013B6-86F3-444E-B908-B4281D91CB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D6AB5F-D42C-4006-A063-6F1F2984A99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D6AB5F-D42C-4006-A063-6F1F2984A99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D6AB5F-D42C-4006-A063-6F1F2984A99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D6AB5F-D42C-4006-A063-6F1F2984A99B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
