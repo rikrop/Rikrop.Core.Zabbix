@@ -27,8 +27,7 @@ namespace Rikrop.Core.Zabbix
         {            
             _listener.Start();
             _active = true;
-            var task = new Task(Loop);
-            task.Start();
+            TaskEx.Run(() => Loop());
         }
 
         protected virtual void OnError(Exception exception)
